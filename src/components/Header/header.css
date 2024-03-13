@@ -1,0 +1,51 @@
+.header {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 5rem auto;
+    justify-content: space-evenly;
+}
+
+.header-logo {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  background-color: #f5faff;
+  box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+  position: absolute;
+  left: 10%;
+  top: -47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .navigation {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 52px;
+  background: #f5faff;
+  box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+  border-radius: 190px;
+}
+
+.header .navigation-menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 52px;
+}
+
+.header--tel {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 15%;
+  height: 52px;
+  background: #f5faff;
+  box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+  border-radius: 190px;
+}

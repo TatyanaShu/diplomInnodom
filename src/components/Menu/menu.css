@@ -1,0 +1,11 @@
+.navigation-menu {
+    text-decoration: none;
+    list-style: none;
+}
+ .navigation-menu  a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #28283b;
+    font-size: 1.2em;
+ }
